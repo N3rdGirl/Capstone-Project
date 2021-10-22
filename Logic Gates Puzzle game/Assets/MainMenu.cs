@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGame : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
@@ -12,7 +12,7 @@ public class StartGame : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Qutting game");
         Application.Quit();
+        Debug.Log("Quitting");
     }
 }
