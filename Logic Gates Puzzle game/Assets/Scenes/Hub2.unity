@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 234806881}
   - component: {fileID: 234806884}
   - component: {fileID: 234806883}
+  - component: {fileID: 234806882}
   m_Layer: 0
   m_Name: Switch 2
   m_TagString: Untagged
@@ -264,6 +265,18 @@ Transform:
   m_Father: {fileID: 398457418}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &234806882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234806880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53f80684d352854f9a51732f699c2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &234806883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4267,7 +4280,7 @@ GameObject:
   - component: {fileID: 1951561511}
   m_Layer: 0
   m_Name: Playertemp
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AndPuzzle : MonoBehaviour
+public class OrPuzzle : MonoBehaviour
 {
-
     public Sprite state1;
     public Sprite state2;
     public Sprite state3;
@@ -30,11 +29,11 @@ public class AndPuzzle : MonoBehaviour
 
     void ProgressPuzzleState()
     {
-        if(spriteRenderer.sprite == state1)
+        if (spriteRenderer.sprite == state1)
         {
             spriteRenderer.sprite = state2;
         }
-        else if(spriteRenderer.sprite == state2)
+        else if (spriteRenderer.sprite == state2)
         {
             spriteRenderer.sprite = state3;
         }
