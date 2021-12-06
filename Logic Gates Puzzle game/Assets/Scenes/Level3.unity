@@ -346,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 1372179982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10.254657}
-  m_LocalScale: {x: 2.0494, y: 2.0494, z: 2.0494}
+  m_LocalScale: {x: 2.110556, y: 2.5103242, z: 0.646874}
   m_Children: []
   m_Father: {fileID: 734629491}
   m_RootOrder: 0
@@ -416,4 +416,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state1: {fileID: 21300000, guid: 9fd8921656309174987e0b998c946c90, type: 3}
   state2: {fileID: 21300000, guid: c340f6b721e742240a73d457cdf6a598, type: 3}
-  state3: {fileID: 21300000, guid: c340f6b721e742240a73d457cdf6a598, type: 3}
+  state3: {fileID: 21300000, guid: a57da9b61d5e7534aa1e0eb9c594c3d0, type: 3}

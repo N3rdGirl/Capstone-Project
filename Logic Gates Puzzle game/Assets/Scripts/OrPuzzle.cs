@@ -37,7 +37,7 @@ public class OrPuzzle : MonoBehaviour
         {
             spriteRenderer.sprite = state3;
         }
-        else
+        else if (spriteRenderer.sprite == state3)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
